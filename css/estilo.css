@@ -32,6 +32,10 @@ border-radius: 75px;
 position: relative;
 z-index: 1000;
 margin-bottom: 21px;
+left: 5%;
+background-image: url(../img/Recurso\ 8.png);
+background-size: contain;
+background-repeat: no-repeat;
 }
 #nombreRectangulo{
 background-color: #013334;
@@ -42,4 +46,23 @@ text-transform: uppercase;
 font-weight: bold;
 position: absolute;
 top: 14%;
+}
+ul li{
+display: inline;
+padding: 0 10px;
+border-right: solid 2px black;
+}
+ul li a{
+    color: #550101;
+    text-decoration: none;text-transform: uppercase;
+    font-weight: bold;
+}
+ul li a:hover{
+color: white;
+font-size: 17px;
+text-decoration: underline;
+background-color: grey;
+}
+#contenidoCuerpo{
+    display: flex;
 }
