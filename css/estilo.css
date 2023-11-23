@@ -125,3 +125,7 @@ h1{
     background-position: left 20px center;
     border-radius: 10px;
 }
+#marcoUbicacion:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
