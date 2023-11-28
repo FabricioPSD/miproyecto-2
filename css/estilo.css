@@ -15,8 +15,9 @@
 }
 footer{
     width: 100%;
-    height: 200px;
     background-color: #7B9E35;
+    display: flex;
+    padding: 30px;
 }
 #cabeceraImagenNombre{
 flex:30%;
@@ -101,7 +102,6 @@ h1{
 }
 #BotonFavorito{
     flex: 50%;
-
 }
 #Ubicacion{
     flex: 50%;
@@ -116,7 +116,7 @@ h1{
 #marcoUbicacion{
     background-image: url(../img/Recurso\ 2.png);
 }
-.marcoUbicacion{
+.disenoBoton{
     background-color: #cccccc;
     width: 250px;
     background-repeat: no-repeat;
@@ -128,4 +128,22 @@ h1{
 #marcoUbicacion:hover{
     opacity: 80%;
     cursor: pointer;
+}
+#marcoMenuFooter{
+    flex: 15%;
+}
+#marcoRedesFooter{
+    flex: 50%
+}
+#marcoDetalleFooter{
+    flex: 35%;
+}
+.footerRedes{
+    display: inline;
+}
+li img{
+    width: 28px;
+}
+.footerRedes li{
+    border: none;
 }
